@@ -1,0 +1,517 @@
+body {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+#nav {
+
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: white;
+
+
+
+}
+
+
+
+#logo {
+
+
+    position: absolute;
+    left: 100px;
+
+
+}
+
+#logo1 {
+
+    mix-blend-mode: screen;
+}
+
+a {
+
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all;
+    transition-duration: 1s;
+
+}
+
+a:hover {
+
+    color: red;
+    stroke-width: 50%;
+
+
+
+}
+
+
+
+
+#banner {
+    height: 500px;
+    background-image: url(banner-1.webp);
+    background-size: cover;
+    transition: all;
+    transition-duration: 2s;
+
+}
+
+
+
+#logo2 {
+
+    position: absolute;
+    top: 130px;
+    right: 120px;
+    mix-blend-mode: screen;
+    opacity: 40%;
+    transition: all;
+    transition-duration: 2s;
+
+
+}
+
+#logo2:hover {
+    filter: brightness(200%);
+    box-shadow: 0px 5px 5px 5px white;
+}
+
+
+#name {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: star;
+
+}
+
+#hussain {
+    position: relative;
+    top: 50px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100px;
+
+}
+
+#WELCOME {
+
+
+    position: relative;
+    top: 10px;
+    left: 270px;
+    font-size: 20px;
+    color: blue;
+
+}
+
+#matter {
+    background-color: white;
+    height: 200px;
+    text-align: center;
+    font-size: 22px;
+    position: relative;
+    top: 20px;
+}
+
+.container {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+
+}
+
+.cement {
+
+    position: absolute;
+    top: 810px;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: dodgerblue;
+
+}
+
+
+.block {
+
+
+    border: 3px solid white;
+    box-shadow: 0px 5px 5px 5px grey;
+    background-color: white;
+    backdrop-filter: blur(85px);
+    transition: all;
+    transition-duration: 1s;
+    stroke: 100px;
+}
+
+.block:hover {
+    box-shadow: 0px 5px 5px 5px red;
+    filter: brightness(150%);
+}
+
+.container2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+
+}
+
+.electrical {
+
+    position: absolute;
+    top: 1120px;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: dodgerblue;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+
+}
+
+.iron {
+
+    text-decoration: underline;
+    position: absolute;
+    top: 1480px;
+    font-size: 2rem;
+    color: dodgerblue;
+
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+
+}
+
+.ironpipes {
+
+
+    text-decoration: underline;
+    position: absolute;
+    top: 1880px;
+    font-size: 2rem;
+    color: dodgerblue;
+}
+
+#credits {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 400px;
+    background-color: rgb(2, 2, 77);
+    padding-left: 250px;
+
+}
+
+#logo3 {
+
+    position: absolute;
+    top: 1200px;
+    left: 38px;
+    mix-blend-mode: screen;
+}
+
+.copyright {
+
+    position: absolute;
+    top: 2670px;
+    left: 470px;
+    color: white;
+    font-size: 20px;
+}
+
+#phone {
+
+    position: absolute;
+    top: 2402px;
+    font-size: 18px;
+    color: #f5f5f5;
+    left: 480px;
+
+}
+
+
+#mail {
+
+    position: absolute;
+    top: 2400px;
+    font-size: 20px;
+    color: whitesmoke;
+    left: 780px;
+}
+
+@media (max-width: 420px) {
+
+    #nav {
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #logo {
+        position: static;
+        margin-bottom: 10px;
+    }
+
+    #logo1 {
+        height: 80px;
+    }
+
+    a {
+        font-size: 16px;
+    }
+
+    #banner {
+        height: 300px;
+        background-position: center;
+    }
+
+    #logo2 {
+        height: 180px;
+        top: 60px;
+        right: 20px;
+    }
+
+    #name {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #WELCOME {
+        position: static;
+        font-size: 18px;
+    }
+
+    #hussain {
+        top: 10px;
+        font-size: 30px;
+    }
+
+    #matter {
+        font-size: 16px;
+        padding: 10px;
+        height: auto;
+    }
+
+    .container,
+    .container2,
+    .container3,
+    .container4 {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .cement,
+    .electrical,
+    .iron,
+    .ironpipes {
+        position: static;
+        font-size: 22px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .block {
+        width: 90%;
+        text-align: center;
+    }
+
+    #credits {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    #logo3 {
+        position: static;
+        height: 150px;
+    }
+
+    #phone,
+    #mail,
+    .copyright {
+        position: static;
+        text-align: center;
+        font-size: 16px;
+        margin-top: 10px;
+        color: white;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    /* NAVIGATION */
+    #nav {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 15px;
+        padding: 15px;
+  
+    }
+
+    body{
+        margin: 0;
+        padding: 0;
+       background-color: ivory;
+       
+    }
+
+    #logo {
+        position: static;
+        margin-bottom: 10px;
+    }
+
+    #logo1 {
+        height: 80px;
+    }
+
+    a {
+        font-size: 18px;
+    }
+
+    /* BANNER */
+    #banner {
+        height:10px;
+        background-image:none;
+        filter: blur(45%);
+      
+        
+
+
+    }
+
+    #logo2 {
+        height: 200px;
+        top: 300px;
+        left: 0px;
+       visibility: hidden;
+        filter: brightness(300%);
+        mix-blend-mode: normal
+    
+    }
+
+    #logo2:hover {
+       
+        box-shadow: none;
+    }
+
+    /* TITLE SECTION */
+    #name {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #WELCOME {
+        position: static;
+        font-size: 18px;
+    }
+
+    #hussain {
+        font-size: 36px;
+        top: 10px;
+    }
+
+    /* DESCRIPTION PARAGRAPH */
+    #matter {
+        font-size: 18px;
+        padding: 15px;
+        height: auto;
+    }
+
+    /* PRODUCT SECTIONS */
+    .container,
+    .container2,
+    .container3,
+    .container4 {
+        flex-direction: column;
+        gap: 35px;
+        padding: 20px;
+        
+    }
+
+    .cement,
+    .electrical,
+    .iron,
+    .ironpipes {
+        position: static;
+        font-size: 22px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .block {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+       
+    }
+
+    img{
+
+        border-radius: 40px solid black;
+    }
+
+    /* FOOTER SECTION */
+    #credits {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        gap: 15px;
+        height: auto;
+    }
+
+    #logo3 {
+        position: static;
+        height: 180px;
+    }
+
+    #phone,
+    #mail,
+    .copyright {
+        position: static;
+        font-size: 18px;
+        margin-top: 10px;
+        color: white;
+        gap: 10px;
+    }
+
+   
+}
